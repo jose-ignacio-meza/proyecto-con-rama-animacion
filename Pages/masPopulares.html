@@ -6,12 +6,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
-<body class="fondoIndex">
-<div class="main">
+<body class="container-fluid fondoIndex">
   
   <!--Titulo y menu de navegacion-->
-  <header class="encabezado">
-    <ul class="titulo" >
+  <header class="row titulo d-flex justify-content-center align-items-start">
+    <ul class=" rounded-pill col-xs-8 col-md-10 col-lg-12  mt-2 w-75">
     <!--Menu Principal--><li > <a href="../index.html">Menu Principal</a> </li>   
     <!--BeatMakers-->    <li > <a href="../Pages/beatmaker.html">Beat Makers</a> </li>
     <!--Artistas-->      <li > <a href="../Pages/artistas.html">Artistas</a> </li>
@@ -21,34 +20,30 @@
     </header>
 
   <!--Titulo-->
-  <h1 class="presentacionDeContenido">Acá encontrarás lo mas popular del ultimo mes en la plataforma</h1> 
+  <h1 class="lead text-primary text-white bg-primary p-1" style="--bs-bg-opacity: .5;">Acá encontrarás lo mas popular del ultimo mes en la plataforma</h1> 
 
   <!--Aca empieza el contenido de esta pagina--> 
-  <div class="cont">
-  <h2 class="subtitulo subtitulo__presentador">Estos son los beats mas populares:</h2>
-    <div class="cont">
-        <td><iframe width="627" height="409" src="https://www.youtube.com/embed/I5OCS3cyPBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <td><iframe width="627" height="409" src="https://www.youtube.com/embed/FOyqIt6RSNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="627" height="409" src="https://www.youtube.com/embed/gVBE0xSr0ho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="627" height="409" src="https://www.youtube.com/embed/wxfXrO0PQxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    <h2 class="subtitulo subtitulo__presentador">Aca encontrarás a los mejores artistas del ultimo mes en la plataforma</h2>
-    <div class="cont">
-        <iframe width="627" height="409" src="https://www.youtube.com/embed/reXSLvEZQuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="627" height="409" src="https://www.youtube.com/embed/wlNXozFK0tU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="627" height="409" src="https://www.youtube.com/embed/kjBJY2oHu_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="627" height="409" src="https://www.youtube.com/embed/Q5yULTNJin0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-  </div>
+  <div class="row justify-content-center">
+  <h2 class="lead text-primary text-white bg-danger p-2" style="--bs-bg-opacity: .8;">Estos son los beats mas populares:</h2>
+        <div class="col-xs-12 col-md-10 col-lg-5 d-flex justify-content-center mb-2"><iframe width="627" height="409" src="https://www.youtube.com/embed/I5OCS3cyPBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="col-xs-12 col-md-10 col-lg-5 d-flex justify-content-center mb-2"><iframe width="627" height="409" src="https://www.youtube.com/embed/FOyqIt6RSNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="col-xs-12 col-md-10 col-lg-5 d-flex justify-content-center mb-2"><iframe width="627" height="409" src="https://www.youtube.com/embed/gVBE0xSr0ho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="col-xs-12 col-md-10 col-lg-5 d-flex justify-content-center mb-2"><iframe width="627" height="409" src="https://www.youtube.com/embed/wxfXrO0PQxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <h2 class="lead text-primary text-white bg-danger p-2" style="--bs-bg-opacity: .8;">Aca encontrarás a los mejores artistas del ultimo mes en la plataforma</h2>
+    <div class="row justify-content-center">
+        <div class="col-xs-12 col-md-10 col-lg-5 d-flex justify-content-center mb-2"><iframe width="627" height="409" src="https://www.youtube.com/embed/reXSLvEZQuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="col-xs-12 col-md-10 col-lg-5 d-flex justify-content-center mb-2"><iframe width="627" height="409" src="https://www.youtube.com/embed/wlNXozFK0tU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="col-xs-12 col-md-10 col-lg-5 d-flex justify-content-center mb-2"><iframe width="627" height="409" src="https://www.youtube.com/embed/kjBJY2oHu_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="col-xs-12 col-md-10 col-lg-5 d-flex justify-content-center mb-2"><iframe width="627" height="409" src="https://www.youtube.com/embed/Q5yULTNJin0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    </div>
 
 <!--footer y fin de la pagina-->
-<footer class="pie">
-  <h3 class="subtitulo">
+<footer class="row">
+  <h3 class="lead text-primary text-white bg-info fs-5" style="--bs-bg-opacity: .4;">
      Nos podes contar tu experiencia comunicandote a plugandplay@gmail.com, todos los derechos de los materailes reservados a sus autores y comisionados por la pagina.
   </h3>
-  <a href="../index.html"><input type="button" class="btn" value="Volver al Menu Principal" name="menu"></a>
+  <a href="../index.html"><input type="button" class="btn btn-primary btn-sm mb-2" value="Volver al Menu Principal" name="menu"></a>
 </footer>
-</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

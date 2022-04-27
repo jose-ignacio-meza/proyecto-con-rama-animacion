@@ -31,7 +31,7 @@ ol{
 }
 
 .titulo{   
-    font-size:13px;
+    font-size:11px;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 250, 250);
@@ -51,6 +51,7 @@ ol{
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 250, 250);
+    padding-top: 3px;
 }
 
 .subtitulo__presentador{
@@ -73,7 +74,7 @@ header ul, header h1{
     height: 45px;
     background-image: linear-gradient(to left, rgb(7, 0, 98) ,rgb(82, 93, 166));
     border-radius: 10px ;
-    padding: 10px;
+    padding-top: 10px;
     margin: 2px ;
     border: solid 1px ; 
     border-color: aliceblue;
@@ -160,7 +161,7 @@ ul li{
 
 @media (min-width: 768px ){
     .titulo{   
-        font-size:20px;
+        font-size:16px;
         font-weight: bold;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: rgb(255, 250, 250);
@@ -178,8 +179,6 @@ ul li{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: rgb(255, 250, 250);
     }
-    
-
 }
 
 @keyframes movi{
